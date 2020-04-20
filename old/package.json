@@ -1,0 +1,26 @@
+{
+  "name": "csssnippet",
+  "version": "1.0.0",
+  "description": "CSS pattern, snippet collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://macaos@github.com/macaos/csssnippet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macaos/csssnippet/issues"
+  },
+  "homepage": "https://github.com/macaos/csssnippet#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.2.0",
+    "style-loader": "^1.1.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
