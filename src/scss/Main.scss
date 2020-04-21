@@ -1,0 +1,41 @@
+body {
+  padding: 1rem;
+}
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  height: 8rem;
+}
+
+.cards {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 400px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 650px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1080px) {
+  .cards {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
