@@ -1,11 +1,16 @@
 import React from "react";
+import Header from "./Header";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
     <div>
-      <div>Header</div>
+      <Header />
       <div className="cards">
-        <div className="card">ONE</div>
+        <Link to="/item/Card01">
+          <div className="card">ONE</div>
+        </Link>
         <div className="card">TWO</div>
         <div className="card">THREE</div>
         <div className="card">FOUR</div>
@@ -30,6 +35,7 @@ const Main = () => {
         <div className="card">ELEVEN</div>
         <div className="card">TWELVE</div>
       </div>
+      <Footer />
     </div>
   );
 };

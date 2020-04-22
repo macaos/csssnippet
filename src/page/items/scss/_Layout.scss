@@ -1,0 +1,9 @@
+// equal-width
+.LayoutEqualWidth {
+  display: flex;
+  padding: 10px;
+  .col {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,10 @@
+.Card01 {
+  .row-equal-width {
+    display: flex;
+    padding: 10px;
+    .col {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+}
