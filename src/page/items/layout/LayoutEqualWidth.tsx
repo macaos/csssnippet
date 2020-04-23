@@ -1,61 +1,43 @@
 import React, { Component } from "react";
-import Prism from "prismjs";
+import { css } from "emotion";
 
 class LayoutEqualWidth extends Component {
-  componentDidMount() {
-    Prism.highlightAll();
-  }
+  componentDidMount() {}
   render() {
     return (
       <div>
         <div>Home - CSS Layout - Card01</div>
         <h1>LayoutEqualWidth</h1>
-        <h2>Wire Frame</h2>
-        <div className="html-wire">
-          <div className="LayoutEqualWidth">
-            <div className="col">equal width</div>
-            <div className="col">equal width</div>
+        <div className="section">
+          <h3>Wire Frame</h3>
+          <div className="html-wire">
+            <div className="LayoutEqualWidth">
+              <div className="col">equal width</div>
+              <div className="col">equal width</div>
+            </div>
+          </div>
+        </div>
+        <div className="section">
+          <h3>Use Example</h3>
+          <div className="html-wire">
+            <div className="LayoutEqualWidth">
+              <div className="col">equal width</div>
+              <div className="col">equal width</div>
+            </div>
           </div>
         </div>
 
-        <h2>Use Example</h2>
-        <div className="html-wire">
-          <div className="LayoutEqualWidth">
-            <div className="col">equal width</div>
-            <div className="col">equal width</div>
-          </div>
-        </div>
-
-        <h2>Source</h2>
-        <h3>html</h3>
-        <div className="source html">
-          <pre>
-            <code className="language-html">
-              {`
-<div className="LayoutEqualWidth">
-  <div className="col">equal width</div>
-  <div className="col">equal width</div>
-</div>
-`}
-            </code>
-          </pre>
-        </div>
-        <h3>css</h3>
-        <div className="source css">
-          <pre>
-            <code className="language-css">
-              {`
-.LayoutEqualWidth {
-      display: flex;
-      padding: 10px;
-      .col{
-          flex-basis: 100%;
-          text-align: center;
-      }
-  }
-`}
-            </code>
-          </pre>
+        <div className="section">
+          <h3>Source</h3>
+          <iframe
+            className={css`
+              border: 0;
+            `}
+            title="test"
+            src="http://jsfiddle.net/macaoshu/j56Lt1ga/2/embedded/html,css/"
+            width="100%"
+            height="450"
+          ></iframe>
         </div>
       </div>
     );

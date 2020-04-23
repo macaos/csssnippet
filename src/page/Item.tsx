@@ -5,21 +5,26 @@ import Footer from "./Footer";
 import "./items/scss/Item.scss";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import LayoutEqualWidth from "./items/layout/LayoutEqualWidth";
-import "./items/css/prism.css";
+import Breadcrumb from "./Breadcrumb";
 
 class Item extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <div className="Item">
         <Header />
-        <Route path="/item/Card01">
-          <Card01 />
-        </Route>
-        <Route path="/item/LayoutEqualWidth">
-          <LayoutEqualWidth />
-        </Route>
+        <div className="content-area">
+          <Breadcrumb />
+          <BrowserRouter>
+            <Route path="/item/Card01">
+              <Card01 />
+            </Route>
+            <Route path="/item/LayoutEqualWidth">
+              <LayoutEqualWidth />
+            </Route>
+          </BrowserRouter>
+        </div>
         <Footer />
-      </BrowserRouter>
+      </div>
     );
   }
 }

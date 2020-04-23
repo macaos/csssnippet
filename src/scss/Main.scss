@@ -1,41 +1,21 @@
-body {
-  padding: 1rem;
-}
+// Main.scss
+@charset "UTF-8";
 
-.card {
-  background-color: dodgerblue;
-  color: white;
-  padding: 10px;
-  height: 8rem;
-}
+// variable
+@import "import/variables";
+@import "import/mixins";
+@import "import/reset";
 
-.cards {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: grid;
-  grid-gap: 1rem;
-}
+// // base
+@import "import/base";
+@import "import/type";
+@import "import/layout";
+@import "import/grid";
+@import "import/common";
+@import "import/view";
 
-@media (min-width: 400px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+// components
+@import "component/controls";
 
-@media (min-width: 650px) {
-  .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (min-width: 900px) {
-  .cards {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-@media (min-width: 1080px) {
-  .cards {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
+// util
+@import "import/utilities";

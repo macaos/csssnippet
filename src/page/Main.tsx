@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 const Main = () => {
   return (
-    <div>
+    <div className="Main">
       <Header />
       <div className="cards">
         <Link to="/item/Card01">
