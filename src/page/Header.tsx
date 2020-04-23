@@ -4,7 +4,10 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="Header">
-      <div className="content">CSS Pattern Snippet</div>
+      <div className="content">
+        <div className="logo1">CSS</div>
+        <div className="logo2"> Pattern Snippet</div>
+      </div>
     </div>
   );
 };

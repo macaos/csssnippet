@@ -5,35 +5,51 @@ html {
 }
 body {
   color: $textColor;
-  .Header {
-    height: 5.5rem;
-    background-color: #fff;
-  }
 }
 
 .section {
   background-color: #fff;
-  padding: 20px;
+  padding: 30px;
 }
 .Header {
+  background-color: #fff;
   .content {
+    height: 5.5rem;
     max-width: 1080px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    .logo1 {
+      display: inline-block;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      color: #6a7b8f;
+      margin-right: 0.5rem;
+    }
+    .logo2 {
+      padding-top: 0.3rem;
+      display: inline-block;
+      font-size: 1.7rem;
+      font-weight: 300;
+      color: #000;
+    }
+    // justify-content: center;
   }
 }
 .Main {
-  .card {
-    background-color: dodgerblue;
-    color: white;
-    padding: 10px;
-    height: 8rem;
-  }
-
   .cards {
-    max-width: 1400px;
+    max-width: 108rem;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
+    padding: 4rem 0;
+    .card {
+      background-color: #fff;
+      color: #666;
+      padding: 10px;
+      height: 8rem;
+    }
   }
 
   @media (min-width: 400px) {
@@ -60,16 +76,7 @@ body {
     }
   }
 }
-.Footer {
-  background-color: #cdd1d5;
-  color: #344853;
-  height: 20rem;
-  .content {
-    padding: 2rem;
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-}
+
 .Item {
   h1 {
     font-weight: 500;
@@ -80,6 +87,17 @@ body {
     letter-spacing: 0;
   }
   .content-area {
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+}
+
+.Footer {
+  background-color: #cdd1d5;
+  color: #344853;
+  height: 20rem;
+  .content {
+    padding: 2rem;
     max-width: 1080px;
     margin: 0 auto;
   }

@@ -11,7 +11,9 @@ const Main = () => {
         <Link to="/item/Card01">
           <div className="card">ONE</div>
         </Link>
-        <div className="card">TWO</div>
+        <Link to="/item/LayoutEqualWidth">
+          <div className="card">Two</div>
+        </Link>
         <div className="card">THREE</div>
         <div className="card">FOUR</div>
         <div className="card">FIVE</div>
