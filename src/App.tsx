@@ -12,12 +12,8 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/" exact={true}>
-            <Main />
-          </Route>
-          <Route path="/item">
-            <Item />
-          </Route>
+          <Route path="/" exact component={Main} />
+          <Route path="/item" component={Item} />
         </Switch>
       </div>
     </Router>

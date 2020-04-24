@@ -14,20 +14,11 @@ class Item extends Component {
       <div className="Item">
         <Header />
         <div className="content-area">
-          <Breadcrumb />
           <BrowserRouter>
-            <Route path="/item/Card01">
-              <Card01 />
-            </Route>
-            <Route path="/item/Block01">
-              <Block01 />
-            </Route>
-            <Route path="/item/Test">
-              <Test />
-            </Route>
-            <Route path="/item/LayoutEqualWidth">
-              <LayoutEqualWidth />
-            </Route>
+            <Route path="/item/Card01" component={Card01} />
+            <Route path="/item/Block01" component={Block01} />
+            <Route path="/item/Test" component={Test} />
+            <Route path="/item/LayoutEqualWidth" component={LayoutEqualWidth} />
           </BrowserRouter>
         </div>
         <Footer />

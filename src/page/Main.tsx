@@ -3,6 +3,11 @@ import Header from "./Header";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Footer from "./Footer";
 
+const itemInfo = {
+  basicLayout: [],
+  block: []
+};
+
 const Main = () => {
   return (
     <div className="Main">
@@ -14,7 +19,9 @@ const Main = () => {
         <Link to="/item/LayoutEqualWidth">
           <div className="card">Two</div>
         </Link>
-        <div className="card">THREE</div>
+        <Link to="/item/Block01">
+          <div className="card">Block01</div>
+        </Link>
         <div className="card">FOUR</div>
         <div className="card">FIVE</div>
         <div className="card">SIX</div>

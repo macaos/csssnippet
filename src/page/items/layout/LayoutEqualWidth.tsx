@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import { css } from "emotion";
+import Breadcrumb from "../../Breadcrumb";
 
 class LayoutEqualWidth extends Component {
+  currentId: string = "Basic01";
+  depthInfo: string[] = ["Home", "Basic", this.currentId];
   componentDidMount() {}
   render() {
     return (
       <div>
-        <div>Home - CSS Layout - Card01</div>
+        <Breadcrumb depth={this.depthInfo} />
         <h1>LayoutEqualWidth</h1>
         <div className="section">
           <h3>Wire Frame</h3>

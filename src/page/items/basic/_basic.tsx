@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import Breadcrumb from "../../Breadcrumb";
 
 class Item extends Component {
-  currentId: string = "Block01";
-  depthInfo: string[] = ["Home", "Block", this.currentId];
+  currentId: string = "Basic01";
+  depthInfo: string[] = ["Home", "Basic", this.currentId];
   componentDidMount() {}
   render() {
     return (
