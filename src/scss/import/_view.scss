@@ -1,6 +1,14 @@
 $textColor: "#344853";
 
-$maxWidth: 1240px;
+$break1: 400px;
+$break2: 650px;
+$break3: 900px;
+$break4: 1240px;
+$break0PaddingLR: 1rem; // mo default
+$break1PaddingLR: 2rem;
+$break2PaddingLR: 3rem;
+$break3PaddingLR: 3rem;
+$break4PaddingLR: 0rem;
 
 html {
   background-color: #f5f5f7;
@@ -17,11 +25,12 @@ body {
   background-color: #fff;
   .content {
     height: 5.5rem;
-    max-width: $maxWidth;
+    max-width: $break4;
     margin: 0 auto;
     display: flex;
     align-items: center;
     font-size: 1.9rem;
+    padding: 0 $break0PaddingLR;
     .logo1 {
       display: inline-block;
       font-weight: 600;
@@ -38,6 +47,26 @@ body {
     }
     // justify-content: center;
   }
+  @media (min-width: $break1) {
+    .content {
+      padding: 0 $break1PaddingLR;
+    }
+  }
+  @media (min-width: $break2) {
+    .content {
+      padding: 0 $break2PaddingLR;
+    }
+  }
+  @media (min-width: $break3) {
+    .content {
+      padding: 0 $break3PaddingLR;
+    }
+  }
+  @media (min-width: $break4) {
+    .content {
+      padding: 0;
+    }
+  }
 }
 .Main {
   .cards {
@@ -45,7 +74,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
-    padding: 4rem 0;
+    padding: 4rem 1rem;
     .card {
       background-color: #fff;
       color: #666;
@@ -54,27 +83,35 @@ body {
     }
   }
 
-  @media (min-width: 400px) {
+  @media (min-width: $break1) {
     .cards {
       grid-template-columns: repeat(2, 1fr);
+      padding-left: $break1PaddingLR;
+      padding-right: $break1PaddingLR;
     }
   }
 
-  @media (min-width: 650px) {
+  @media (min-width: $break2) {
     .cards {
       grid-template-columns: repeat(3, 1fr);
+      padding-left: $break2PaddingLR;
+      padding-right: $break2PaddingLR;
     }
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: $break3) {
     .cards {
       grid-template-columns: repeat(4, 1fr);
+      padding-left: $break3PaddingLR;
+      padding-right: $break3PaddingLR;
     }
   }
 
-  @media (min-width: $maxWidth) {
+  @media (min-width: $break4) {
     .cards {
       grid-template-columns: repeat(5, 1fr);
+      padding-left: $break4PaddingLR;
+      padding-right: $break4PaddingLR;
     }
   }
 }
@@ -89,8 +126,35 @@ body {
     letter-spacing: 0;
   }
   .content-area {
-    max-width: $maxWidth;
+    max-width: $break4;
     margin: 0 auto;
+    padding: 0 $break0PaddingLR;
+  }
+  // @media (max-width: $break4) {
+  //   .content-area {
+  //     padding: 0 $break4PaddingLR;
+  //   }
+  // }
+
+  @media (min-width: $break1) {
+    .content-area {
+      padding: 0 $break1PaddingLR;
+    }
+  }
+  @media (min-width: $break2) {
+    .content-area {
+      padding: 0 $break2PaddingLR;
+    }
+  }
+  @media (min-width: $break3) {
+    .content-area {
+      padding: 0 $break3PaddingLR;
+    }
+  }
+  @media (min-width: $break4) {
+    .content-area {
+      padding: 0 $break4PaddingLR;
+    }
   }
 }
 
@@ -99,8 +163,28 @@ body {
   color: #344853;
   height: 20rem;
   .content {
-    padding: 2rem;
-    max-width: $maxWidth;
+    padding: 2rem $break0PaddingLR;
+    max-width: $break4;
     margin: 0 auto;
+  }
+  @media (min-width: $break1) {
+    .content {
+      padding: 2rem $break1PaddingLR;
+    }
+  }
+  @media (min-width: $break2) {
+    .content {
+      padding: 2rem $break2PaddingLR;
+    }
+  }
+  @media (min-width: $break3) {
+    .content {
+      padding: 2rem $break3PaddingLR;
+    }
+  }
+  @media (min-width: $break4) {
+    .content {
+      padding: 2rem $break4PaddingLR;
+    }
   }
 }
