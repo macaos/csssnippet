@@ -13,6 +13,7 @@ class Item extends Component {
     return (
       <div className="Item">
         <Header />
+        <Breadcrumb />
         <div className="content-area">
           <BrowserRouter>
             <Route path="/item/Card01" component={Card01} />

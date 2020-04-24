@@ -9,7 +9,6 @@ class LayoutEqualWidth extends Component {
   render() {
     return (
       <div>
-        <Breadcrumb depth={this.depthInfo} />
         <h1>LayoutEqualWidth</h1>
         <div className="section">
           <h3>Wire Frame</h3>

@@ -10,7 +10,6 @@ class Item extends Component {
   render() {
     return (
       <div>
-        <Breadcrumb depth={this.depthInfo} />
         <h1>{this.currentId}</h1>
         <div className="section">
           <h3>
