@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 note.txt
+src/page/items/layout/Test.tsx
+src/page/items/scss/_Test.scss

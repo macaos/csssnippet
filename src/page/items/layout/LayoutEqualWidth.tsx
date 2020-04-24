@@ -28,7 +28,9 @@ class LayoutEqualWidth extends Component {
         </div>
 
         <div className="section">
-          <h3>Source</h3>
+          <h3>
+            Source<i className="fa fa-times"></i>
+          </h3>
           <iframe
             className={css`
               border: 0;

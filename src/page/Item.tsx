@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import "./items/scss/Item.scss";
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import LayoutEqualWidth from "./items/layout/LayoutEqualWidth";
+import Test from "./items/layout/Test";
 import Breadcrumb from "./Breadcrumb";
 
 class Item extends Component {
@@ -17,6 +18,9 @@ class Item extends Component {
           <BrowserRouter>
             <Route path="/item/Card01">
               <Card01 />
+            </Route>
+            <Route path="/item/Test">
+              <Test />
             </Route>
             <Route path="/item/LayoutEqualWidth">
               <LayoutEqualWidth />
