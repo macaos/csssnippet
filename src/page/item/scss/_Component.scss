@@ -1,0 +1,48 @@
+.row-calendar {
+  width: 100%;
+  .col-noti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  .col-nav {
+    display: flex;
+    // width: 100%;
+    height: 30px;
+    div {
+      &:nth-child(1),
+      &:nth-child(3) {
+        width: 60px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+      &:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .col-week {
+    display: flex;
+    li {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  }
+  .col-days {
+    ul {
+      display: flex;
+      li {
+        flex-basis: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

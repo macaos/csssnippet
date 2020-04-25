@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { css } from "emotion";
-import { Link } from "react-router-dom";
-import Breadcrumb from "../../Breadcrumb";
+import "../scss/Item.scss";
 
 class Item extends Component {
   currentId: string = "EqualWidth";
@@ -14,12 +13,13 @@ class Item extends Component {
         <div className="section">
           <h3>Wire Frame - Basic01</h3>
           <div className="html-wire">
-            <div className="accordion-01-step1">
+            <div className="row-t1">
               <div className="col-left">
-                <div>45%</div>
+                <div>left</div>
               </div>
               <div className="col-right">
-                <div>55%</div>
+                <div>right1</div>
+                <div>right2</div>
               </div>
             </div>
           </div>
@@ -34,9 +34,9 @@ class Item extends Component {
               border: 0;
             `}
             title="test"
-            src="https://jsfiddle.net/macaos/813czpq7/12/embedded/html,css/"
+            src="https://jsfiddle.net/macaos/e8ryckjt/1/embedded/html,css/"
             width="100%"
-            height="450"
+            height="150"
           ></iframe>
         </div>
       </div>
