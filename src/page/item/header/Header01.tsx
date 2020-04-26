@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { css } from "emotion";
 import { Link } from "react-router-dom";
 import classnames from "classnames";
+import SourceSection from "../../component/SourceSection";
 
 class Item extends Component {
   currentId: string = "Header01";
@@ -28,19 +29,19 @@ class Item extends Component {
           </div>
         </div>
 
-        <div className="section">
-          <h3>
-            Source<i className="fa fa-times"></i>
-          </h3>
-          <iframe
-            className={css`
-              border: 0;
-            `}
-            title="test"
-            src="https://jsfiddle.net/macaos/3h1nm4vz/2/embedded/html,css/"
-            width="100%"
-            height="300"
-          ></iframe>
+        <div className="section source">
+          <SourceSection>
+            <></>
+            <iframe
+              className={css`
+                border: 0;
+              `}
+              title="test"
+              src="https://jsfiddle.net/macaos/3h1nm4vz/2/embedded/html,css/"
+              width="100%"
+              height="300"
+            ></iframe>
+          </SourceSection>
         </div>
 
         <div className="section">
