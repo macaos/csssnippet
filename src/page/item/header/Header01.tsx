@@ -62,19 +62,19 @@ class Item extends Component {
             </div>
           </div>
         </div>
-        <div className="section">
-          <h3>
-            Source<i className="fa fa-times"></i>
-          </h3>
-          <iframe
-            className={css`
-              border: 0;
-            `}
-            title="test"
-            src="https://jsfiddle.net/macaos/xyomtsu0/6/embedded/html,css/"
-            width="100%"
-            height="300"
-          ></iframe>
+        <div className="section source">
+          <SourceSection>
+            <></>
+            <iframe
+              className={css`
+                border: 0;
+              `}
+              title="test"
+              src="https://jsfiddle.net/macaos/xyomtsu0/6/embedded/html,css/"
+              width="100%"
+              height="300"
+            ></iframe>
+          </SourceSection>
         </div>
         {/* // */}
         <div className="section">
@@ -95,19 +95,19 @@ class Item extends Component {
             </div>
           </div>
         </div>
-        <div className="section">
-          <h3>
-            Source<i className="fa fa-times"></i>
-          </h3>
-          <iframe
-            className={css`
-              border: 0;
-            `}
-            title="test"
-            src="https://jsfiddle.net/macaos/bht9xk4v/2/embedded/html,css/"
-            width="100%"
-            height="300"
-          ></iframe>
+        <div className="section source">
+          <SourceSection>
+            <></>
+            <iframe
+              className={css`
+                border: 0;
+              `}
+              title="test"
+              src="https://jsfiddle.net/macaos/bht9xk4v/2/embedded/html,css/"
+              width="100%"
+              height="300"
+            ></iframe>
+          </SourceSection>
         </div>
         {/* // */}
         <div className="section">
@@ -128,19 +128,19 @@ class Item extends Component {
             </div>
           </div>
         </div>
-        <div className="section">
-          <h3>
-            Source<i className="fa fa-times"></i>
-          </h3>
-          <iframe
-            className={css`
-              border: 0;
-            `}
-            title="test"
-            src="https://jsfiddle.net/macaos/rayeo7nL/3/embedded/html,css/"
-            width="100%"
-            height="300"
-          ></iframe>
+        <div className="section source">
+          <SourceSection>
+            <></>
+            <iframe
+              className={css`
+                border: 0;
+              `}
+              title="test"
+              src="https://jsfiddle.net/macaos/rayeo7nL/3/embedded/html,css/"
+              width="100%"
+              height="300"
+            ></iframe>
+          </SourceSection>
         </div>
         {/* // */}
       </div>
