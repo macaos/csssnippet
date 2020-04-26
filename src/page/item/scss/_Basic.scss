@@ -47,7 +47,7 @@
 }
 
 ////////////////////////////////////
-.row-t2 {
+.LeftRightFixed_CenterAuto {
   display: flex;
   width: 100%;
   height: 60px;
@@ -72,20 +72,19 @@
 }
 
 ////////////////////////////////////
-.row-t3 {
+.LeftAutoSizeFitRightContentSize {
   display: flex;
   width: 100%;
   height: 60px;
   .col-left {
     display: flex;
-    align-items: flex-end;
-    // flex-basis: 0;
+    align-items: center;
     flex-grow: 1;
   }
 
   .col-right {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex: 0 0 auto;
     height: 100%;
   }

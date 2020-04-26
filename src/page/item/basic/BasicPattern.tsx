@@ -135,7 +135,7 @@ class Item extends Component {
         <div className="section">
           <h3>Wire Frame - Basic01</h3>
           <div className="html-wire">
-            <div className="row-t2">
+            <div className="LeftRightFixed_CenterAuto">
               <div className="col-left">
                 <div>left</div>
               </div>
@@ -158,16 +158,16 @@ class Item extends Component {
               border: 0;
             `}
             title="test"
-            src="https://jsfiddle.net/macaos/e8ryckjt/1/embedded/html,css/"
+            src="https://jsfiddle.net/macaos/g5srnd74/2/embedded/html,css/"
             width="100%"
-            height="150"
+            height="350"
           ></iframe>
         </div>
         {/* ///////////////////////// */}
         <div className="section">
-          <h3>Wire Frame - Basic01</h3>
+          <h3>Left : AutoSizeFit - Right : ContentSize</h3>
           <div className="html-wire">
-            <div className="type row-t3">
+            <div className="LeftAutoSizeFitRightContentSize">
               <div className="col-left">
                 <div>
                   left : auto size fit<br></br>OOOO OO OOOO O OOOOOOOO.
@@ -189,9 +189,46 @@ class Item extends Component {
               border: 0;
             `}
             title="test"
-            src="https://jsfiddle.net/macaos/e8ryckjt/1/embedded/html,css/"
+            src="https://jsfiddle.net/macaos/3h1nm4vz/2/embedded/html,css/"
             width="100%"
-            height="150"
+            height="300"
+          ></iframe>
+        </div>
+
+        {/* ///////////////////////// */}
+        <div className="section">
+          <h3>
+            Left : AutoSizeFit - Right1 : ContentSize - Right2 : ContentSize
+          </h3>
+          <div className="html-wire">
+            <div className="LeftAutoSizeFitRightContentSize">
+              <div className="col-left">
+                <div>
+                  left : auto size fit<br></br>OOOO OO OOOO O OOOOOOOO.
+                </div>
+              </div>
+              <div className="col-right">
+                <div> right1 : contents size </div>
+              </div>
+              <div className="col-right">
+                <div> right2 : contents size </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section">
+          <h3>
+            Source<i className="fa fa-times"></i>
+          </h3>
+          <iframe
+            className={css`
+              border: 0;
+            `}
+            title="test"
+            src="https://jsfiddle.net/macaos/9s1zhcj5/3/embedded/html,css/"
+            width="100%"
+            height="300"
           ></iframe>
         </div>
 
