@@ -2,6 +2,7 @@ import React from "react";
 import { css } from "emotion";
 import classnames from "classnames";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+// import "./item/scss/Item.scss";
 
 const Header = () => {
   return (
