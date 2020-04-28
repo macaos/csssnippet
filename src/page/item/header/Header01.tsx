@@ -143,6 +143,93 @@ class Item extends Component {
           </SourceSection>
         </div>
         {/* // */}
+        <div className="section">
+          <h3>Use Example 02</h3>
+          <div className="html-wire-">
+            <div className="Header01-example02">
+              <div className="logo">
+                <i className="xi-globus xi-2x icon"></i>
+                <div className="text">LOGO</div>
+              </div>
+              <div className="row-right buttons">
+                <button className="active"> ABOUT </button>
+                <button> WORK </button>
+                <button> SERVICE </button>
+              </div>
+              <div className="row-right">
+                <button> CONTACT </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="section">
+          <h3>Use Example 03</h3>
+          <div className="html-wire-">
+            <div className="Header01-example02">
+              <div className="logo">
+                <i className="xi-globus xi-2x icon"></i>
+                <div className="text">LOGO</div>
+              </div>
+              <div className="row-right buttons">
+                <button className="active"> ABOUT </button>
+                <button> WORK </button>
+                <button> SERVICE </button>
+                <button> BLOG </button>
+                <button> CONTACT </button>
+              </div>
+              <div className="row-right">
+                <i className="xi-user-o xi-x"></i>
+                <i className="xi-bell-o xi-x"></i>
+                <i className="xi-search xi-x"></i>
+                <i className="xi-cart-o xi-x"></i>
+                <i className="xi-bars xi-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="section">
+          <h3>Use Example 03</h3>
+          <div className="html-wire-">
+            <div className="Header01-example02">
+              <div className="logo">
+                <i className="xi-globus xi-2x icon"></i>
+                <div className="text">LOGO</div>
+              </div>
+              <div className="row-right buttons">
+                <button className="active"> ABOUT </button>
+                <button> WORK </button>
+                <button> SERVICE </button>
+              </div>
+              <div className="row-right">
+                <i className="xi-user-o xi-x"></i>
+                <i className="xi-search xi-x"></i>
+                <i className="xi-bars xi-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section">
+          <h3>Use Example 04</h3>
+          <div className="html-wire-">
+            <div className="Header01-example02">
+              <div className="logo">
+                <i className="xi-globus xi-2x icon"></i>
+                <div className="text">LOGO</div>
+              </div>
+              <div className="row-right">
+                <i className="xi-user-o xi-x"></i>
+                <i className="xi-bell-o xi-x"></i>
+                <i className="xi-search xi-x"></i>
+                <i className="xi-cart-o xi-x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* // */}
       </div>
     );
   }
