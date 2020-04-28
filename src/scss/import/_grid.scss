@@ -10,3 +10,13 @@
     flex-shrink: 1;
   }
 }
+
+.grid-2x2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  height: 200px;
+  .thumb {
+    padding: 10px;
+  }
+}

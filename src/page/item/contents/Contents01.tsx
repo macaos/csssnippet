@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 import Breadcrumb from "../../Breadcrumb";
 
 class Item extends Component {
-  currentId: string = "Block01";
-  depthInfo: string[] = ["Home", "Block", this.currentId];
+  currentId: string = "Contents01";
   componentDidMount() {}
   render() {
     return (
@@ -13,10 +12,10 @@ class Item extends Component {
         <h1>{this.currentId}</h1>
         <div className="section">
           <h3>
-            Wire Frame - <Link to="/item/Basic01">Basic01</Link>
+            Wire Frame - <Link to="/item/basic/BasicPattern">Basic01</Link>
           </h3>
           <div className="html-wire">
-            <div className="accordion-01-step1">
+            <div className="Contents01-step1">
               <div className="col-left">
                 <div>45%</div>
               </div>
@@ -29,7 +28,7 @@ class Item extends Component {
         <div className="section">
           <h3>Wire Frame - step02</h3>
           <div className="html-wire">
-            <div className="accordion-01-step2">
+            <div className="Contents01-step2">
               <div className="col-left">
                 <h3>Voluptate velit</h3>
                 <p>
@@ -95,7 +94,7 @@ class Item extends Component {
         <div className="section">
           <h3>Use Example</h3>
           <div className="html">
-            <div className="accordion-01-step2">
+            <div className="Contents01-step2">
               <div className="col-left">
                 <h3>Voluptate velit</h3>
                 <p>
