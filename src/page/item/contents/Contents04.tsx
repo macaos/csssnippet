@@ -3,10 +3,10 @@ import { css } from "emotion";
 import { Link } from "react-router-dom";
 import Breadcrumb from "../../Breadcrumb";
 import SourceSection from "../../component/SourceSection";
-import "./Contents03.scss"; //######
+import "./Contents04.scss"; //######
 
 class Item extends Component {
-  currentId: string = "Contents03"; //######
+  currentId: string = "Contents04"; //######
   componentDidMount() {}
   render() {
     return (
@@ -109,7 +109,7 @@ class Item extends Component {
         <div className="cp-section">
           <h3 className="h3">Use Example - step01</h3>
           <div className="html-wire-">
-            <div className="content Contents04-step01">
+            <div className="content Contents04-step01 use-example">
               <div className="columns">
                 <div className="column is-5 column-1">
                   <p>

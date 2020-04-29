@@ -12,3 +12,25 @@
 .language-html {
   padding-top: 0 !important;
 }
+
+@mixin tag-example {
+  border: 1px solid #ffdd5785;
+  position: relative;
+  &::before {
+    background: #ffdd57;
+    border-radius: 2px 2px 0 0;
+    bottom: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    content: "Example";
+    display: inline-block;
+    font-size: 7px;
+    font-weight: 700;
+    left: -1px;
+    letter-spacing: 1px;
+    margin-left: -1px;
+    padding: 3px 5px;
+    position: absolute;
+    text-transform: uppercase;
+    vertical-align: top;
+  }
+}

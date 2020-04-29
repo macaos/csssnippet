@@ -1,6 +1,10 @@
+@import "../scss/common";
 ////////////////////////////////////////////
 .Contents03-step01 {
-  // box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.29);
+  &.use-example {
+    @include tag-example;
+  }
+
   .column-1 {
     padding-right: 3rem;
   }

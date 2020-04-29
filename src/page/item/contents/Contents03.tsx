@@ -109,7 +109,7 @@ class Item extends Component {
         <div className="cp-section">
           <h3 className="h3">Wire Frame - step02</h3>
           <div className="html-wire- ">
-            <div className="content Contents03-step01">
+            <div className="content Contents03-step01 use-example">
               <div className="columns">
                 <div className="column is-5 column-1">
                   <p>
