@@ -146,6 +146,13 @@ body {
     margin: 0 auto;
     padding: 0 $break0PaddingLR;
   }
+  .cp-section {
+    margin-bottom: 1rem;
+    &.source {
+      margin-top: -1rem;
+      border-top: 0.1rem solid #e1e1e1;
+    }
+  }
   // @media (max-width: $break4) {
   //   .content-area {
   //     padding: 0 $break4PaddingLR;

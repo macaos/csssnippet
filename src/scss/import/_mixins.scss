@@ -1,8 +1,0 @@
-// _mixins.scss
-
-@mixin color($color) {
-  color: $color;
-  &-i {
-    color: $color !important;
-  }
-}
