@@ -3,7 +3,6 @@ import { css } from "emotion";
 import { Link } from "react-router-dom";
 import Breadcrumb from "../../Breadcrumb";
 import SourceSection from "../../component/SourceSection";
-import "./Contents03.scss"; //######
 
 class Item extends Component {
   currentId: string = "Contents03"; //######

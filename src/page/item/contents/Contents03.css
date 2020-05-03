@@ -1,0 +1,67 @@
+.html-wire *:not(path):not(g) {
+  color: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(0, 128, 255, 0.5) !important;
+  outline: solid 0.25rem rgba(255, 255, 255, 0.5) !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.language-css,
+.language-html {
+  padding-top: 0 !important;
+}
+
+.Contents03-step01.use-example {
+  border: 1px solid #ffdd5785;
+  position: relative;
+}
+
+.Contents03-step01.use-example::before {
+  background: #ffdd57;
+  border-radius: 2px 2px 0 0;
+  bottom: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  content: "Example";
+  display: inline-block;
+  font-size: 7px;
+  font-weight: 700;
+  left: -1px;
+  letter-spacing: 1px;
+  margin-left: -1px;
+  padding: 3px 5px;
+  position: absolute;
+  text-transform: uppercase;
+  vertical-align: top;
+}
+
+.Contents03-step01 .column-1 {
+  padding-right: 3rem;
+}
+
+.Contents03-step01 .btn-accortion {
+  border: 0.1rem solid #e1e1e1;
+  margin: 0 0 1rem 0;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3rem;
+}
+
+.Contents03-step01 .btn-accortion .is-10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contents03-step01 .btn-accortion .is-10 i {
+  margin-right: 0.5rem;
+}
+
+.Contents03-step01 .btn-accortion .is-2 {
+  text-align: right;
+}
+/*# sourceMappingURL=Contents03.css.map */
